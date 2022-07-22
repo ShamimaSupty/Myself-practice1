@@ -1,10 +1,16 @@
-.welcome-part{
-    
-    display: flex;
-    
+
+.dream{
+display: flex;
+background-image: url(img/dream-bg.png);
+background-repeat: no-repeat;
+background-position: right;
+
 }
 h1{
     font-size: 40px;
+}
+h3{
+    font-size: 30px;
 }
 span{
   color: rgb(190, 28, 82) ;
@@ -36,4 +42,14 @@ body{
 .top-banner{
     background-image: url(img/top-banner.png);
     background-repeat: no-repeat;
+}
+.scndimage img{
+    margin-right: 5%;
+    padding-left: 10%;
+ 
+    width: 50%;
+}
+.flexible{
+    margin-bottom: 100px;
+    display: flex;
 }
