@@ -12,7 +12,7 @@ h1{
 h3{
     font-size: 30px;
 }
-span{
+.orange{
   color: rgb(190, 28, 82) ;
 }
 body{
@@ -52,4 +52,39 @@ body{
 .flexible{
     margin-bottom: 100px;
     display: flex;
+}
+.twopart{
+    width: 50%;
+    margin-left: 10%;
+    margin-top: 5%;  
+    padding-left: 5%;
+    
+}
+
+.second-part{
+   
+    box-shadow: 10px 15px 40px gray;
+    margin-left: 5% ;
+    margin-right: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+#full-stack{
+border-left: 5px solid;
+border-image: linear-gradient(orange, rgb(221, 16, 119));
+border-image-slice: 1;
+}
+#baby-web{
+    border-left: 5px solid;
+    border-image: linear-gradient(yellow, blue
+    );
+    border-image-slice: 1;
+}
+.experience{
+    background-image: url(img/exp-bg.png);  
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.footer{
+    text-align: center;
 }
